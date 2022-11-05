@@ -59,7 +59,7 @@ input[type="checkbox"]{
   }
 }
 @media (max-width: 920px) {
-  nav .menu-btn i{
+  nav .check-btn i{
     display: block;
   }
   #click:checked ~ .check-btn i:before{
