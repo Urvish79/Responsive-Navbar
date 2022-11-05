@@ -1,0 +1,53 @@
+*{
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    list-style: none;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Baloo Bhai 2', cursive;
+}
+nav{
+    background: rgb(46, 78, 236);
+    height: 80px;
+    width: 100%;
+
+}
+label.logo{
+    color: white;
+    font-size: 40px;
+    line-height: 80px;
+    padding: 12px 12px;
+    font-weight: bold;
+
+}
+nav ul{
+    float: right;
+    margin: 12px 12px;
+}
+nav ul li{
+    display: inline-block;
+    line-height: 80px;
+    margin: 5px 5px;
+}
+nav ul li a {
+    color: white;
+    font-size: 20px;
+    padding: 5px 5px;
+    border-radius: 3px;
+}
+a.active,a:hover{
+    background: rgb(191, 193, 200);
+    transition: .5s;
+    color: black;
+}
+.checkbtn{
+    font-size: 30px;
+    color: white;
+    
+
+}
+
+
+
